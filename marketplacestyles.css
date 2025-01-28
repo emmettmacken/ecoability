@@ -7,12 +7,24 @@
 svg{
     width: 10000;
 }
-
+header {
+    background: #2ecc71;
+    color: white;
+    padding: 1rem 0;
+}
+img {
+    display: block;
+    margin-right: auto;
+  }
 body {
-    background-color: #f9f9f9;
-    padding: 20px;
+    font-family: Arial, sans-serif;
     margin: 0;
-
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+main {
+    padding: 2rem;
 }
 .cartcontainer{
     width: 900px;
@@ -31,7 +43,22 @@ svg{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
-
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 .card {
     background: #fff;
     border: 1px solid #ddd;
@@ -90,4 +117,21 @@ svg{
 }
 .iconcart span{
     
+}
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
 }
