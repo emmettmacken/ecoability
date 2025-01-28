@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 svg{
     width: 10000;
 }
@@ -19,15 +20,13 @@ img {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-<<<<<<< HEAD
-=======
     padding: 0;
     line-height: 1.6;
     color: #333;
 }
 main {
     padding: 2rem;
->>>>>>> f980b1fe38dcadb0fc71931cbabb689b9938d9fa
+
 }
 .cartcontainer{
     width: 900px;
@@ -142,12 +141,10 @@ header{
 
 
 .iconcart span{
-<<<<<<< HEAD
     display: block;
     width: 30px;
     height: 30px;
     background-color: red;
-=======
     
 }
 footer {
@@ -166,5 +163,4 @@ footer ul {
 footer ul li a {
     color: white;
     text-decoration: none;
->>>>>>> f980b1fe38dcadb0fc71931cbabb689b9938d9fa
 }
