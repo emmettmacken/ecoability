@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 header {
+    position: sticky;
     background: #2ecc71;
     color: white;
     padding: 1rem 0;
@@ -43,13 +44,7 @@ main {
 section{
     margin-bottom: 2rem;
 }
-.cartcontainer{
-    width: 900px;
-    max-width: 90vw;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -93,6 +88,7 @@ section{
     margin-bottom: 10px;
 }
 .card-button {
+    cursor: pointer;
     display: inline-block;
     text-decoration: none;
     background: #3498db;
