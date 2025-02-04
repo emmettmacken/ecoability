@@ -35,7 +35,18 @@ header ul li a {
 }
 #a{
     text-decoration: none;
+    color: #fff;
 }
+.company-name {
+    color: white !important;  /* Ensures the text is white */
+    text-decoration: none !important; /* Removes underline */
+    background: none !important; /* Removes any highlight */
+  }
+  
+  .company-name:hover {
+    color: white !important; /* Keeps it white on hover */
+    text-decoration: none !important; /* Prevents underline on hover */
+  }
 #hero {
     text-decoration: none;
     border-radius: 1pc;
