@@ -10,6 +10,8 @@ header {
     background: #2ecc71;
     color: white;
     padding: 1rem 0;
+    background: linear-gradient(to bottom, #2ecc71 80%, rgba(168, 224, 99, 0.8) 95%, transparent);
+
 }
 a {
     text-decoration: none;
@@ -116,6 +118,8 @@ footer{
     color: white;
     padding: 1rem 0;
     text-align: center;
+    background: linear-gradient(to bottom, white , #2c3e50 10%);
+
 }
 footer ul {
     list-style: none;
